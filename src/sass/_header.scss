@@ -1,0 +1,55 @@
+.header {
+  background-color: #fffefe;
+  &__container {
+    margin: 65px auto 0 auto;
+
+    height: 100px;
+    width: 1920px;
+
+    display: flex;
+    align-items: center;
+
+    border: 1px red dotted;
+  }
+  &__logo {
+    margin-left: 80px;
+    margin-right: 235px;
+  }
+}
+
+.logo {
+  &__link {
+    text-decoration: none;
+  }
+  &__ico {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.nav {
+  &__list {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+  }
+  &__item {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #c3b9b5;
+
+    list-style-type: none;
+
+    &:not(:last-child) {
+      margin-right: 80px;
+    }
+  }
+  &__link {
+    text-decoration: none;
+  }
+}
