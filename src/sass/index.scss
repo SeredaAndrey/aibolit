@@ -1,2 +1,16 @@
 @import './common';
+
+body {
+  font-family: 'Comfortaa';
+  font-style: normal;
+}
+a,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
 @import './header';
+@import './hero';

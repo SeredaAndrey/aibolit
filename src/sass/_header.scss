@@ -1,7 +1,12 @@
 .header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+
   background-color: #fffefe;
   &__container {
     margin: 65px auto 0 auto;
+    padding: 0 80px 0 80px;
 
     height: 100px;
     width: 1920px;
@@ -12,14 +17,22 @@
     border: 1px red dotted;
   }
   &__logo {
-    margin-left: 80px;
     margin-right: 235px;
+  }
+  &__sityselect-link {
+    margin-left: auto;
+
+    color: #ffc59e;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: #a88066;
+    }
   }
 }
 
 .logo {
   &__link {
-    text-decoration: none;
   }
   &__ico {
     width: 100px;
@@ -35,21 +48,16 @@
     display: flex;
   }
   &__item {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-
-    color: #c3b9b5;
-
-    list-style-type: none;
-
     &:not(:last-child) {
       margin-right: 80px;
     }
   }
   &__link {
-    text-decoration: none;
+    color: #c3b9b5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: #59443f;
+    }
   }
 }
