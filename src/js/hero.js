@@ -9,9 +9,7 @@ var carousel = new bootstrap.Carousel(myCarousel, {
   touch: true,
 });
 
-// получение ссылки на контейнер вставки героя
 const insertHero = document.querySelector('#hero-insert-container');
-// создание по полученным с БЕКа данным наполения окон героя экземпляра класса
 const pageHero = new PageService('heroElement');
 
 pageHero.fetchArticles().then(insertMarkup);
@@ -21,5 +19,6 @@ function insertMarkup(articles) {
     console.log('Page Not Found');
     return;
   }
-  insertHero.insertAdjacentHTML('beforeend', heroCard(articles.data[0]));
+  // console.log(articles.data);
+  insertHero.insertAdjacentHTML('beforeend', heroCard(articles.data));
 }
