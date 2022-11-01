@@ -14,10 +14,15 @@
     display: flex;
     align-items: center;
 
-    border: 1px red dotted;
+    // border: 1px red dotted;
   }
   &__logo {
     margin-right: 235px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      transform: scale(1.1);
+    }
   }
   &__sityselect-link {
     margin-left: auto;
@@ -32,8 +37,8 @@
 }
 
 .logo {
-  &__link {
-  }
+  // &__link {
+  // }
   &__ico {
     width: 100px;
     height: 100px;
