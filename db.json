@@ -1,42 +1,144 @@
 {
   "heroElement": [
     {
-      "screen1": {
-        "title": "АйГав - цілодобова ветклініка",
-        "srcImage1x": "./images/hero/image1@1x.jpg",
-        "srcImage2x": "./images/hero/image1@2x.jpg",
-        "active": "active"
-      },
-      "screen2": {
-        "title": "Комфортні обладнані стаціонари",
-        "srcImage1x": "./images/hero/image2@1x.jpg",
-        "srcImage2x": "./images/hero/image2@2x.jpg",
-        "active": ""
-      },
-      "screen3": {
-        "title": "Сучасне європейске обладнання",
-        "srcImage1x": "./images/hero/image3@1x.jpg",
-        "srcImage2x": "./images/hero/image3@2x.jpg",
-        "active": ""
-      },
-      "screen4": {
-        "title": "Власна сучасна лабораторія",
-        "srcImage1x": "./images/hero/image4@1x.jpg",
-        "srcImage2x": "./images/hero/image4@2x.jpg",
-        "active": ""
-      },
-      "screen5": {
-        "title": "Аптека та зоокрамниця за доступними цінами",
-        "srcImage1x": "./images/hero/image5@1x.jpg",
-        "srcImage2x": "./images/hero/image5@2x.jpg",
-        "active": ""
-      },
-      "screen6": {
-        "title": "Грумінг салон та косметичні товари",
-        "srcImage1x": "./images/hero/image6@1x.jpg",
-        "srcImage2x": "./images/hero/image6@2x.jpg",
-        "active": ""
-      }
+      "id": 1,
+      "title": "АйГав - цілодобова ветклініка",
+      "srcImage1x": "./images/hero/image1@1x.jpg",
+      "srcImage2x": "./images/hero/image1@2x.jpg",
+      "active": "active"
+    },
+    {
+      "id": 2,
+      "title": "Комфортні обладнані стаціонари",
+      "srcImage1x": "./images/hero/image2@1x.jpg",
+      "srcImage2x": "./images/hero/image2@2x.jpg",
+      "active": ""
+    },
+    {
+      "id": 3,
+      "title": "Сучасне європейске обладнання",
+      "srcImage1x": "./images/hero/image3@1x.jpg",
+      "srcImage2x": "./images/hero/image3@2x.jpg",
+      "active": ""
+    },
+    {
+      "id": 4,
+      "title": "Власна сучасна лабораторія",
+      "srcImage1x": "./images/hero/image4@1x.jpg",
+      "srcImage2x": "./images/hero/image4@2x.jpg",
+      "active": ""
+    },
+    {
+      "id": 5,
+      "title": "Аптека та зоокрамниця за доступними цінами",
+      "srcImage1x": "./images/hero/image5@1x.jpg",
+      "srcImage2x": "./images/hero/image5@2x.jpg",
+      "active": ""
+    },
+    {
+      "id": 6,
+      "title": "Грумінг салон та косметичні товари",
+      "srcImage1x": "./images/hero/image6@1x.jpg",
+      "srcImage2x": "./images/hero/image6@2x.jpg",
+      "active": ""
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Терапія",
+      "quantity": "26 послуг",
+      "srcImage": ""
+    },
+    {
+      "id": 2,
+      "name": "Хірургія",
+      "quantity": "22 послуги",
+      "srcImage": ""
+    },
+    {
+      "id": 3,
+      "name": "Неврологія",
+      "quantity": "16 послуг",
+      "srcImage": ""
+    },
+    {
+      "id": 4,
+      "name": "Ортопедія",
+      "quantity": "14 послуг",
+      "srcImage": ""
+    },
+    {
+      "id": 5,
+      "name": "Дермотологія",
+      "quantity": "22 послуги",
+      "srcImage": ""
+    },
+    {
+      "id": 6,
+      "name": "Офтальмологія",
+      "quantity": "16 послуг",
+      "srcImage": ""
+    },
+    {
+      "id": 7,
+      "name": "Кардіологія",
+      "quantity": "11 послуг",
+      "srcImage": ""
+    },
+    {
+      "id": 8,
+      "name": "Стоматологія",
+      "quantity": "32 послуги",
+      "srcImage": ""
+    },
+    {
+      "id": 9,
+      "name": "Репродуктологія",
+      "quantity": "6 послуг",
+      "srcImage": ""
+    },
+    {
+      "id": 10,
+      "name": "Візуальна діагностіка",
+      "quantity": "23 послуги",
+      "srcImage": ""
+    },
+    {
+      "id": 11,
+      "name": "Лабораторія",
+      "quantity": "428 послуги",
+      "srcImage": ""
+    },
+    {
+      "id": 12,
+      "name": "Онкологія",
+      "quantity": "9 послуг",
+      "srcImage": ""
+    },
+    {
+      "id": 13,
+      "name": "Ендокрінологія",
+      "quantity": "14 послуг",
+      "srcImage": ""
+    },
+    {
+      "id": 14,
+      "name": "Екзотичні тварини",
+      "quantity": "20 послуг",
+      "srcImage": ""
+    },
+    {
+      "id": 15,
+      "name": "Аптека",
+      "quantity": "2 послуги",
+      "srcImage": ""
+    },
+    {
+      "id": 16,
+      "name": "Грумінг",
+      "quantity": "6 послуг",
+      "srcImage": ""
     }
   ]
 }

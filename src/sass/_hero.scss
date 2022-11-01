@@ -1,6 +1,7 @@
 .hero {
   &__container {
     position: relative;
+    overflow: hidden;
 
     margin: 0 auto 0 auto;
 
@@ -11,6 +12,8 @@
   }
   &__title {
     position: absolute;
+
+    width: 940px;
 
     top: 150px;
     left: 335px;
