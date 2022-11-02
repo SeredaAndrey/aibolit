@@ -3,43 +3,37 @@
     {
       "id": 1,
       "title": "АйГав - цілодобова ветклініка",
-      "srcImage1x": "./images/hero/image1@1x.jpg",
-      "srcImage2x": "./images/hero/image1@2x.jpg",
+      "srcImage": "https://github.com/SeredaAndrey/aibolit/tree/main/src/images/hero/image1.jpg",
       "active": "active"
     },
     {
       "id": 2,
       "title": "Комфортні обладнані стаціонари",
-      "srcImage1x": "./images/hero/image2@1x.jpg",
-      "srcImage2x": "./images/hero/image2@2x.jpg",
+      "srcImage": "https://github.com/SeredaAndrey/aibolit/tree/main/src/images/hero/image2.jpg",
       "active": ""
     },
     {
       "id": 3,
       "title": "Сучасне європейске обладнання",
-      "srcImage1x": "./images/hero/image3@1x.jpg",
-      "srcImage2x": "./images/hero/image3@2x.jpg",
+      "srcImage": "https://github.com/SeredaAndrey/aibolit/tree/main/src/images/hero/image3.jpg",
       "active": ""
     },
     {
       "id": 4,
       "title": "Власна сучасна лабораторія",
-      "srcImage1x": "./images/hero/image4@1x.jpg",
-      "srcImage2x": "./images/hero/image4@2x.jpg",
+      "srcImage": "https://github.com/SeredaAndrey/aibolit/tree/main/src/images/hero/image4.jpg",
       "active": ""
     },
     {
       "id": 5,
       "title": "Аптека та зоокрамниця за доступними цінами",
-      "srcImage1x": "./images/hero/image5@1x.jpg",
-      "srcImage2x": "./images/hero/image5@2x.jpg",
+      "srcImage": "https://github.com/SeredaAndrey/aibolit/tree/main/src/images/hero/image5.jpg",
       "active": ""
     },
     {
       "id": 6,
       "title": "Грумінг салон та косметичні товари",
-      "srcImage1x": "./images/hero/image6@1x.jpg",
-      "srcImage2x": "./images/hero/image6@2x.jpg",
+      "srcImage": "https://github.com/SeredaAndrey/aibolit/tree/main/src/images/hero/image6.jpg",
       "active": ""
     }
   ],
