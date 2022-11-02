@@ -48,97 +48,97 @@
       "id": 1,
       "name": "Терапія",
       "quantity": "26 послуг",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 2,
       "name": "Хірургія",
       "quantity": "22 послуги",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 3,
       "name": "Неврологія",
       "quantity": "16 послуг",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 4,
       "name": "Ортопедія",
       "quantity": "14 послуг",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 5,
       "name": "Дермотологія",
       "quantity": "22 послуги",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 6,
       "name": "Офтальмологія",
       "quantity": "16 послуг",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 7,
       "name": "Кардіологія",
       "quantity": "11 послуг",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 8,
       "name": "Стоматологія",
       "quantity": "32 послуги",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 9,
       "name": "Репродуктологія",
       "quantity": "6 послуг",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 10,
       "name": "Візуальна діагностіка",
       "quantity": "23 послуги",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 11,
       "name": "Лабораторія",
       "quantity": "428 послуги",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 12,
       "name": "Онкологія",
       "quantity": "9 послуг",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 13,
       "name": "Ендокрінологія",
       "quantity": "14 послуг",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 14,
       "name": "Екзотичні тварини",
       "quantity": "20 послуг",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 15,
       "name": "Аптека",
       "quantity": "2 послуги",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     },
     {
       "id": 16,
       "name": "Грумінг",
       "quantity": "6 послуг",
-      "srcImage": ""
+      "srcImage": "./images/services/terapy.png"
     }
   ]
 }

@@ -8,7 +8,7 @@
     width: 1920px;
     height: 915px;
 
-    // border: 1px blue dotted;
+    border: 1px blue dotted;
   }
   &__title {
     position: absolute;
@@ -82,21 +82,26 @@
     display: flex;
   }
   &__item {
+    height: 40px;
+    width: 40px;
+
+    border: black 1px dotted;
     &:not(:last-child) {
       margin-right: 50px;
     }
-    &:hover,
-    &:focus {
-      .social-link__ico {
-        fill: #59443f;
-      }
-    }
   }
-  &__ico {
-    width: 40px;
-    height: 40px;
-
-    fill: #c3b9b5;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &__link {
   }
+}
+.facebook-ico::before {
+  display: inline-block;
+  content: '';
+  vertical-align: -0.125em;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+.instagram-ico {
+}
+.youtube-ico {
 }
