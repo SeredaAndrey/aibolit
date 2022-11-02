@@ -1,2 +1,2 @@
 import defaults from './js/hero';
-import defaults from './js/services';
+// import defaults from './js/services';
