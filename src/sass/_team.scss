@@ -6,8 +6,76 @@
     width: 1920px;
     height: fit-content;
 
-    padding: 0 333px 206px 333px;
+    padding: 100px 333px 206px 333px;
 
-    border: 1px blue dotted;
+    // border: 1px blue dotted;
+  }
+  &__title {
+    margin: 0 auto 40px auto;
+
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+
+    text-align: center;
+
+    color: #080606;
+  }
+  &__list {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 36px;
+    display: flex;
+  }
+  &__item {
+    height: 178px;
+    width: 178px;
+    // background-color: #fbf8f8;
+    // border-radius: 50%;
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+  &__image {
+    height: 178px;
+    width: 178px;
+    border-radius: 50%;
+  }
+  &__more {
+    &-link {
+      display: block;
+      margin: 0 auto 0 auto;
+      width: 150px;
+
+      &:hover,
+      &:focus {
+        .team__more-ico {
+          fill: #59443f;
+        }
+        .team__more-text {
+          color: #59443f;
+        }
+      }
+    }
+    &-container {
+      display: flex;
+    }
+    &-text {
+      width: 150px;
+
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 20px;
+
+      align-items: center;
+
+      color: #ffc59e;
+      transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &-ico {
+      fill: #ffc59e;
+      transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 }
