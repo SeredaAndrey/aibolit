@@ -7,7 +7,7 @@
 
     padding: 150px 284px 150px 284px;
 
-    border: 1px orange dotted;
+    // border: 1px orange dotted;
   }
   &__list {
     display: grid;
@@ -27,15 +27,19 @@
     width: 320px;
 
     border-radius: 20px;
+    // border: #ede9e8 1px solid;
 
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    & use {
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    .services__ico {
       --color1: #ffc59e;
-      transition: --color1 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: style 1000ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     &:hover,
     &:focus {
-      & use {
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+
+      .services__ico {
         --color1: #59443f;
       }
     }
@@ -69,7 +73,7 @@
 
     bottom: 24px;
     right: 24px;
-    & use {
-    }
+    // & use {
+    // }
   }
 }

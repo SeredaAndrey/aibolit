@@ -1,0 +1,13 @@
+.team {
+  background-color: #fbf8f8;
+  &__container {
+    margin: 0 auto 0 auto;
+
+    width: 1920px;
+    height: fit-content;
+
+    padding: 0 333px 206px 333px;
+
+    border: 1px blue dotted;
+  }
+}
