@@ -47,7 +47,7 @@ var carousel = new bootstrap.Carousel(myCarousel, {
   wrap: true,
   touch: true,
 });
-console.log(bootstrap.Carousel.getInstance(myCarousel));
+// console.log(bootstrap.Carousel.getInstance(myCarousel));
 
 // const insertHero = document.querySelector('#hero-insert-container');
 

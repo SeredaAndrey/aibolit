@@ -5,7 +5,7 @@
     width: 1920px;
     height: fit-content;
 
-    padding: 0 140px 0 140px;
+    padding: 0 140px 280px 140px;
   }
   &__title {
     margin: 0 auto 104px auto;
@@ -47,8 +47,13 @@
       display: flex;
     }
     &__image {
+      margin-right: 50px;
+    }
+    &__ico {
     }
     &__text {
+      width: 300px;
+
       font-weight: 300;
       font-size: 20px;
       line-height: 30px;

@@ -1,0 +1,146 @@
+.footer {
+  background-color: #59443f;
+  &__container {
+    margin: 0 auto 0 auto;
+
+    display: flex;
+
+    width: 1920px;
+    height: fit-content;
+
+    padding: 80px 230px 10px 230px;
+  }
+  &__logo {
+    &-container {
+      display: flex;
+      height: fit-content;
+
+      &:hover,
+      &:focus {
+        .footer__logo-ico {
+          --color1: #ffc59e;
+        }
+        .footer__logo-title,
+        .footer__logo-descript {
+          color: #ffc59e;
+        }
+      }
+    }
+    &-ico {
+      display: block;
+      border-radius: 50%;
+      margin-right: 22px;
+      transition: --color1 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &-title {
+      display: block;
+      font-weight: 300;
+      font-size: 50px;
+      line-height: 56px;
+
+      color: #ffffff;
+      transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &-descript {
+      display: block;
+      margin-top: -9px;
+
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 20px;
+
+      color: #ffffff;
+      transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+  &__nav {
+    &-container {
+      margin-left: 36px;
+    }
+    &-list {
+      display: grid;
+      grid-template-columns: 230px 230px 230px;
+    }
+    &-item {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+    &-link {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 30px;
+
+      color: #ffffff;
+      transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      &:focus,
+      &:hover {
+        color: #ffc59e;
+      }
+    }
+  }
+  &__contact {
+    &-container {
+      margin-left: auto;
+    }
+    &-app {
+      &-container {
+        margin-bottom: 40px;
+      }
+      &-list {
+        display: flex;
+      }
+      &-item {
+        &:not(:last-child) {
+          margin-right: 25px;
+        }
+      }
+      &-link {
+      }
+      &-picture {
+        width: 140px;
+        height: 40px;
+      }
+    }
+    &-sociallik {
+      &-container {
+        margin-bottom: 30px;
+      }
+      &-list {
+        display: flex;
+      }
+      &-item {
+        &:not(:last-child) {
+          margin-right: 50px;
+        }
+      }
+      &-link {
+        &:hover,
+        &:focus {
+          .footer__contact-sociallink-ico {
+            --color1: #ffc59e;
+          }
+        }
+      }
+      &-ico {
+        transition: --color1 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    }
+    &-text {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 30px;
+
+      color: #ffffff;
+      transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover,
+      &:focus {
+        color: #ffc59e;
+      }
+      &-container {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
